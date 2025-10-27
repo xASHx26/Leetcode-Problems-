@@ -11,3 +11,16 @@ class Solution(object):
             result[tuple(count)].append(i)
         return result.values()
 
+'''
+
+defaultdict automatcly assigns value to dic key
+
+count has all the key of 0-26(a-z)
+
+then we insert the ascki key of the charecters to  count
+
+then we return values
+
+
+
+'''
